@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Interval Testing</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <div id='heat'>
+      <div class="stat">Heat: <span id="stat-heat" class="stat-value"></span></div>
+      <div class="stat">Heat-Rate: <span id="stat-heatrate" class="stat-value"></span></div>
+      <div class="stat">Heat-Cap: <span id="stat-heatcap" class="stat-value"></span></div>
+      <button id="upgrade-heatrate" onclick="buttonPress()">Increase Heat Rate</button>
+      <button id="upgrade-heatcap" onclick="buttonPress()">Increase Heat Cap</button>
+    </div>
+    <script src="Stats.js"></script>
+  </body>
+</html>
